@@ -1,0 +1,57 @@
+.zone-content-calendar .irailcontent {
+   min-height:218px;
+   max-height:218px;
+}
+@media (min-width: 1659px) {
+.pageLink {width: 181px;}
+.pageLinks .pageLinks-inner td {border-left: 0px solid #fff;}
+}
+#right {
+    padding-bottom: 10px;
+}
+#CustomPageBody {
+    overflow: visible;
+}
+.box-title h4 {
+    font-size: 19px;
+ }
+h1{font-size:30px;}
+h2{font-size:28px;}
+h3{font-size:26px;}
+h4{font-size:24px;}
+h5{font-size:22px;}
+
+.hp-btn {
+    background: #003465 none repeat scroll 0 0;
+}
+div#left {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#right {
+    padding-left: 40px;
+}
+td#SpContent_Container {
+    padding-right: 0px;
+}
+
+.pageLink-link {
+    font-size: 14px !important;
+}
+
+/* Hide cart icon in header */
+.navbar-nav>li:nth-child(5) a:after{
+   display: none !important;
+}
+
+/* Header Submenu style */
+.dropdown-menu>li>a{
+    background: transparent !important;
+    color: #fff !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    padding: 6px 11px !important;
+    line-height: 24px !important;
+    border: none !important;
+    box-shadow: none !important;
+}
