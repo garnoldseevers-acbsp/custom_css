@@ -1,19 +1,4 @@
-.zone-content-calendar .irailcontent{
-   min-height:218px;
-   max-height:218px;
-}
-
-#right{
-    padding-bottom: 10px;
-}
-
-#CustomPageBody{
-    overflow: visible;
-}
-
-.box-title h4{
-    font-size: 19px;
-}
+/* Headers */
 
 h1{
     font-size:30px;
@@ -35,8 +20,24 @@ h5{
     font-size:22px;
 }
 
+.box-title h4{
+    font-size: 19px;
+}
+
+/* Buttons */
+
 .hp-btn{
     background: #003465 none repeat scroll 0 0;
+}
+
+.pageLink-link{
+    font-size: 14px !important;
+}
+
+/* Layout */
+
+#CustomPageBody{
+    overflow: visible;
 }
 
 div#left{
@@ -45,6 +46,7 @@ div#left{
 }
 
 #right{
+    padding-bottom: 10px;
     padding-left: 40px;
 }
 
@@ -52,16 +54,11 @@ td#SpContent_Container{
     padding-right: 0px;
 }
 
-.pageLink-link{
-    font-size: 14px !important;
-}
-
-/* Hide cart icon in header */
+/* Header */
 .navbar-nav>li:nth-child(5) a:after{
    display: none !important;
 }
 
-/* Header Submenu style */
 .dropdown-menu>li>a{
     background: transparent !important;
     color: #fff !important;
@@ -72,6 +69,12 @@ td#SpContent_Container{
     border: none !important;
     box-shadow: none !important;
 }
+
+/* Misc */
+.zone-content-calendar .irailcontent{
+    min-height:218px;
+    max-height:218px;
+ } 
 
 /* Large Screens */
 @media (min-width: 1659px){
