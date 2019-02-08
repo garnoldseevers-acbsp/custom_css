@@ -1,64 +1,70 @@
-/* Headers */
-
-h1{
-    font-size:30px;
+/* ---------------------------------------
+    Layout
+--------------------------------------- */
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-left: 15px;
+    padding-right: 15px;
 }
-
-h2{
-    font-size:28px;
-}
-
-h3{
-    font-size:26px;
-}
-
-h4{
-    font-size:24px;
-}
-
-h5{
-    font-size:22px;
-}
-
-.box-title h4{
-    font-size: 19px;
-}
-
-/* Buttons */
-
-.hp-btn{
-    background: #003465 none repeat scroll 0 0;
-}
-
-.pageLink-link{
-    font-size: 14px !important;
-}
-
-/* Layout */
-
 #CustomPageBody{
     overflow: visible;
 }
-
 div#left{
     padding-right: 0px;
     padding-left: 0px;
 }
-
 #right{
     padding-bottom: 10px;
     padding-left: 40px;
 }
-
 td#SpContent_Container{
     padding-right: 0px;
 }
-
-/* Header */
+/* ---------------------------------------
+    Headers
+--------------------------------------- */
+h1{
+    font-family: "Open Sans Condensed";
+    font-size: 36px;
+    font-weight: bold;
+    color: #005596;
+}
+h2{
+    font-size:24px;
+}
+h3{
+    font-family: "Open Sans";
+    font-size:18px;
+    font-weight: bold;
+    color: #0075b0;
+}
+h4{
+    font-size:16px;
+}
+h5{
+    font-size:16px;
+}
+.box-title h4{
+    font-size: 19px;
+}
+/* ---------------------------------------
+    Buttons
+--------------------------------------- */
+.zone-content-calendar .irailcontent{
+    min-height:218px;
+    max-height:218px;
+ } 
+.hp-btn{
+    background: #003465 none repeat scroll 0 0;
+}
+.pageLink-link{
+    font-size: 14px !important;
+}
+/* ---------------------------------------
+    Header 
+--------------------------------------- */
 .navbar-nav>li:nth-child(5) a:after{
    display: none !important;
 }
-
 .dropdown-menu>li>a{
     background: transparent !important;
     color: #fff !important;
@@ -69,14 +75,92 @@ td#SpContent_Container{
     border: none !important;
     box-shadow: none !important;
 }
+/* Buttons */
+.primary-button{
+    display: inline-block;
+    border-style: solid;
+    border-width: 0px 1px 1px 0px;
+    border-color: #D26D2C;    
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Open Sans Condensed";
+    color: #ffffff;
+    background-color: #F5904F;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+.primary-button:hover{
+    color: #ffffff;
+    background-color: #0075b0;
+    border-color: #0075b0;
+}
+/* ---------------------------------------
+    Footer 
+--------------------------------------- */
+/* Corporate Members */
+.bottomcontentarea-out{
+    box-shadow: none !important;
+    padding-bottom: 50px;
+}
+.bottomcontentarea-out .container{
+    max-width: 1100px;
+}
+.cor_part_slider {
+    margin-top: 25px;
+    padding: 20px 0px;
+}
+.cor_part_slider li {
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    height: 50px;
+    margin-bottom: 25px;
 
-/* Misc */
+}
+.cor_part_slider li.display_slide {
+    display: inline-block;
+}
+.cor_part_slider li a{
+    display: inline-block;
+    text-align: center;
+    padding: 0px 40px;
+    max-width: 100%;
+    max-height: 100% !important;
+}
+.cor_part_slider li img{
+    text-align: center;
+    display: inline-block;
+    max-height: 50px;
+}
+.clear{
+    clear: both;
+}
+#sponsors{
+    border: 1px solid #f5f5f5;
+    box-shadow: 6px 6px 7px -4px #888;
+}
+/* ---------------------------------------
+    Member Dashboard
+--------------------------------------- */
+#member-dashboard .member-dashboard-module{
+    margin-bottom: 50px;
+}
+/* ---------------------------------------
+    Misc.
+--------------------------------------- */
 .zone-content-calendar .irailcontent{
     min-height:218px;
     max-height:218px;
  } 
-
-/* Large Screens */
+/* ---------------------------------------
+    Large Screens
+--------------------------------------- */
 @media (min-width: 1659px){
     .pageLink{
         width: 181px;
